@@ -38,4 +38,62 @@ MQA-SFT/
 ├── models/              # Saved checkpoints / LoRA adapters
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+```
 
+## Dataset
+
+The system is trained on medical question–answer datasets (e.g., MedQuAD-like resources), formatted as:
+```
+git clone https://github.com/your-username/MQA-SFT.git
+cd MQA-SFT
+pip install -r requirements.txt
+```
+## Installation
+```
+git clone https://github.com/your-username/MQA-SFT.git
+cd MQA-SFT
+pip install -r requirements.txt
+```
+- Requirements
+- Python ≥ 3.9
+- PyTorch ≥ 2.0
+- transformers
+- datasets
+- peft
+- accelerate
+
+## Training
+Supervised Fine-Tuning (SFT)
+`python training/train_sft.py`
+
+Parameter-Efficient Fine-Tuning (PEFT – LoRA)
+`python training/train_peft.py`
+
+## Supported features:
+Mixed precision (FP16)
+GPU / Google Colab
+Automatic checkpoint saving
+
+## Evaluation
+The model is evaluated using standard QA metrics:
+- Exact Match (EM)
+- Token-level F1-score
+
+`python evaluation/evaluate.py`
+
+## Experimental Setup
+- Optimizer: AdamW
+- Learning rate scheduling with warmup
+- Evaluation on validation and test splits
+- Long-context medical QA scenarios
+
+
+### Citation
+```
+@article{mqa_sft,
+  title   = {Medical Question Answering using Supervised Fine-Tuning and Parameter-Efficient Fine-Tuning},
+  author  = {Author Name},
+  journal = {Under Review},
+  year    = {2025}
+}
+```
