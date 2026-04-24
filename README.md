@@ -90,10 +90,22 @@ The model is evaluated using standard QA metrics:
 
 ### Citation
 ```
-@article{mqa_sft,
-  title   = {Medical Question Answering using Supervised Fine-Tuning and Parameter-Efficient Fine-Tuning},
-  author  = {Author Name},
-  journal = {Under Review},
-  year    = {2025}
+@article{frhan2026mqa,
+  title   = {Supervised Fine-Tuning Approach for Medical Question-Answering using Qwen Instruct},
+  author  = {Amjad Jumaah Frhan and Mohammed A. S. Al-Hitawi and Hiba A. Abu-Alsaad},
+  journal = {International Journal of Computers},
+  volume  = {11},
+  pages   = {57--62},
+  year    = {2026},
+  publisher = {IARAS}
 }
+```
+🔗 Paper Link:
+https://www.iaras.org/home/cijc/supervised-fine-tuning-approach-for-medical-question-answering-using-qwen-instruct
+
+### Reference (APA Style)
+```
+Frhan, A. J., Al-Hitawi, M. A. S., & Abu-Alsaad, H. A. (2026).
+Supervised Fine-Tuning Approach for Medical Question-Answering using Qwen Instruct.
+International Journal of Computers, 11, 57–62.
 ```
