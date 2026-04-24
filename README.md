@@ -1,5 +1,3 @@
-# MQA-SFT
-Medical Question Answering using SFT and PEFT Approach
 # MQA-SFT  
 ### Medical Question Answering using Supervised Fine-Tuning (SFT) and Parameter-Efficient Fine-Tuning (PEFT)
 
