@@ -42,12 +42,7 @@ MQA-SFT/
 
 ## Dataset
 
-The system is trained on medical question–answer datasets (e.g., MedQuAD-like resources), formatted as:
-```
-git clone https://github.com/your-username/MQA-SFT.git
-cd MQA-SFT
-pip install -r requirements.txt
-```
+The system is trained on medical question–answer datasets (MedQuAD-like resources), formatted as:
 ## Installation
 ```
 git clone https://github.com/your-username/MQA-SFT.git
